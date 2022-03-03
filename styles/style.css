@@ -76,15 +76,15 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 4px;
 }
 .text1 {
   font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.4);
+  margin-top: 8px;
 }
 .age {
   font-size: 1.5rem;
   margin-left: 1rem;
-  font-weight: bold;
+  font-weight: medium;
   color: rgba(0, 0, 0, 0.4);
 }

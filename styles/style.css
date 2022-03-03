@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex-grow: 1;
+  width: 100%;
+}
+.profileCard {
+  width: 400px;
+  /* height: 375px; */
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 32px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.topBlock {
+  position: relative;
+  height: 300px;
+}
+
+.profileDetails {
+  position: absolute;
+  text-align: center;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profilePic {
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../images/image-victor.jpg) center/100%;
+}
+
+.bottomBlock {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  height: 87px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.smallContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  height: 50%;
+  background: url(../images/bg-pattern-card.svg) center/100%;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 4px;
+}
+.text1 {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.age {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}

@@ -34,11 +34,8 @@ body {
 }
 
 .profileDetails {
-  position: absolute;
+  margin-top: 6em;
   text-align: center;
-  bottom: 16px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .profilePic {
